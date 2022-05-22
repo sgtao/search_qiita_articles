@@ -12,9 +12,18 @@ yarn install
 ```
 
 ### Compiles and hot-reloads for development
+- start web service at local
+  - after below, access to `http://localhost:8080/`
 ```
 yarn serve
 ```
+
+- start Storybook server
+  - after below, access to `http://localhost:6006/`
+```
+yarn storybook
+```
+
 
 ### Compiles and minifies for production
 ```
