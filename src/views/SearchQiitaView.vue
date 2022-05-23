@@ -8,7 +8,7 @@
       <hr>
       <div>
         <p>{{ message }}</p>
-        <ul>
+        <ul class="searched-items">
           <li v-for="(item, key) in items" :key="key">
             <a v-bind:href="item.url" target="_blank">
               {{ item.title }}
@@ -82,3 +82,13 @@ export default {
   },
 }
 </script>
+<style scoped>
+.search-qiita {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 60rem;
+}
+.searched-items li {
+  list-style: none;
+}
+</style>

@@ -8,6 +8,8 @@
 </template>
 
 <style>
+@import "./index.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,5 +29,12 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  font-weight: bolder;
 }
 </style>
